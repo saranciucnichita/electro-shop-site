@@ -1,0 +1,56 @@
+  html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Редактирование заголовка страницы */
+  h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0px 0px 70px black
+  }
+
+  /* Центрирование store.png */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  p,
+  li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0px;
+  }
+
+  body {
+    width: 80%;
+    margin: 1% auto;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(56, 92, 101);
+    border-radius: 3px;
+    background-color: #d8e2ff;
+    overscroll-behavior-y: none;
+  }
+
+  /* Кнопка */
+  .button {
+    background-color: white; /* Цвет фона кнопки */
+    border: 2px solid #04AA6D; /* Цвет границы кнопки */
+    border-radius: 4px; /* Сила скругления */
+    color: #000000; /* Цвет текста кнопки */
+    /* padding: 15px 32px; Размер кнопки 15 пикс. верикально 32 пикс. горизонтально  */
+    padding: 15px 32px; /* Размер кнопки 15 пикс. верикально 32 пикс. горизонтально  */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; /* Разделение кнопки и других элементов в пикс. */
+    transition-duration: 0.4s;
+    cursor: pointer; /* Анимация курсора при наведении */
+  }
+  /* Наведение на кнопку */
+  .button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }

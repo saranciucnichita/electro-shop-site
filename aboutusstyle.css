@@ -1,0 +1,48 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:
+        linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-repeat: repeat-x;
+  }
+
+  body {
+    overscroll-behavior-y: none;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 3;
+    letter-spacing: 0px;
+  }
+
+  img {
+    float: left;
+  }
+
+  .imgbox {
+    float: left;
+    text-align: center;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 6px;
+  }
+  
+  button {
+    width: 100%;
+  }
+
+
